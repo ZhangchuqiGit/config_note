@@ -1,0 +1,11 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/hgfs/ZCQ_ARM_Linux_i.MX6ULL/ZCQ-VScode-Makefile/VScode_Makefile_MP3_00'
+CC -o lcd.o -c lcd.c
+CC -o player.o -c player.c
+CC -o usb.o -c usb.c
+CC -o media.o -c media.c
+echo "Sources =lcd.c player.c usb.c media.c "
+echo "Objects =lcd.o player.o usb.o media.o"
+CC -o mp3 lcd.o player.o usb.o media.o
+make: Leaving directory '/mnt/hgfs/ZCQ_ARM_Linux_i.MX6ULL/ZCQ-VScode-Makefile/VScode_Makefile_MP3_00'
+ 

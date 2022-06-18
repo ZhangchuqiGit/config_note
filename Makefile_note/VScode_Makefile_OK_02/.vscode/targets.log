@@ -1,0 +1,399 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Mon May 31 19:48:32 2021
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+PAPERSIZE = a4
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=fcitx
+# makefile
+CURDIR := /mnt/hgfs/ZCQ_ARM_Linux_i.MX6ULL/ZCQ-VScode-Makefile/VScode_Makefile_OK_02
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"71ffa7264d3a9c91d6413c59d18c2924.zh-cn","_translationsConfigFile":"/home/zcq/.config/Code/clp/71ffa7264d3a9c91d6413c59d18c2924.zh-cn/tcf.json","_cacheRoot":"/home/zcq/.config/Code/clp/71ffa7264d3a9c91d6413c59d18c2924.zh-cn","_resolvedLanguagePackCoreLocation":"/home/zcq/.config/Code/clp/71ffa7264d3a9c91d6413c59d18c2924.zh-cn/054a9295330880ed74ceaedda236253b4f39a335","_corruptedFile":"/home/zcq/.config/Code/clp/71ffa7264d3a9c91d6413c59d18c2924.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# makefile (from 'Makefile', line 9)
+objects = main.o display.o 
+# environment
+JOURNAL_STREAM = 8:61452
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+JAVA_HOME = /usr/jdk1.8.0_291
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = zcq
+# environment
+MAKELEVEL := 0
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+AUTOJUMP_SOURCED = 1
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=5936fab4df32ed5cc40d7e4560b1d81c
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+MANAGERPID = 2063
+# environment
+CLUTTER_IM_MODULE = fcitx
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-93942b18-9b7c-4220-9b9d-3f8e961c53a1.sock
+# environment
+LC_NAME = zh_CN.UTF-8
+# environment
+VSCODE_CWD = /home/zcq
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /usr/bin:/usr/jdk1.8.0_291/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/arm/gcc-linaro-7.5.0-2019.12-x86_64_armeb-linux-gnueabihf/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+SESSION_MANAGER = local/zcq:@/tmp/.ICE-unix/2280,unix/zcq:/tmp/.ICE-unix/2280
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 3)
+CCFLAGS = ${CFLAG} -Wall -std=c++17 
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=2ef53bae-779d-4d6e-b7da-28553379a9dd&iid=2ef53bae-779d-4d6e-b7da-28553379a9dd&sid=2ef53bae-779d-4d6e-b7da-28553379a9dd","uploadToServer":true}
+# environment
+INVOCATION_ID = d7d6b948fcc34872b0763f7864e1fa18
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+PARENT_WINDOW_ID = x11:3204c27
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 143023
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :0
+# environment
+GTK_IM_MODULE = fcitx
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /mnt/hgfs/ZCQ_ARM_Linux_i.MX6ULL/ZCQ-VScode-Makefile/VScode_Makefile_OK_02
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 2233
+# environment
+PKG_CONFIG_PATH = :/usr/local/lib/pkgconfig
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /home/zcq
+# environment
+LOGNAME = zcq
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+ZSH = /home/zcq/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = zh_CN.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = fcitx
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = zcq
+# environment
+LC_MONETARY = zh_CN.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+CLASSPATH = .:/usr/jdk1.8.0_291/lib/dt.jar:/usr/jdk1.8.0_291/lib/tools.jar
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = zh_CN.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = /home/zcq/.config/Code/CachedData/054a9295330880ed74ceaedda236253b4f39a335
+# environment
+OLDPWD = /home/zcq
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = zh_CN:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-fc24236f-1.56.2-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+BREAKPAD_DUMP_LOCATION = /home/zcq/.config/Code/exthost Crash Reports
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = zh_CN.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = zh_CN.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+LC_MEASUREMENT = zh_CN.UTF-8
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# environment
+DBUS_STARTER_BUS_TYPE = session
+# environment
+QT4_IM_MODULE = fcitx
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = zh_CN.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+AUTOJUMP_ERROR_PATH = /home/zcq/.local/share/autojump/errors.log
+# environment
+LC_ADDRESS = zh_CN.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 143023
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=5936fab4df32ed5cc40d7e4560b1d81c
+# variable set hash-table stats:
+# Load=126/1024=12%, Rehash=0, Collisions=23/159=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 55, inode 3212): 12 files, no impossibilities.
+
+# 12 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+ 
+# No implicit rules.
+
+# Files
+
+# Not a target:
+header.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-28 10:20:19
+#  File has been updated.
+#  Successfully updated.
+
+all: main.o display.o
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Last modified 2021-05-28 10:34:10
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+#  recipe to execute (from 'Makefile', line 14):
+		g++ ${CCFLAGS} $(objects) -o all 
+
+# Not a target:
+display.h:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-28 10:19:43
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-28 10:34:53
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+display.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-05-28 11:01:32
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 24):
+	rm -rf all main.o display.o
+
+display.o: display.cpp display.h header.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 20):
+	g++ ${CCFLAGS} -c display.cpp -o display.o
+
+main.o: main.cpp header.h display.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  Last modified 2021-05-28 10:34:09
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := main.o
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := main.cpp header.h display.h
+# automatic
+# | := 
+# automatic
+# < := main.cpp
+# automatic
+# ^ := main.cpp header.h display.h
+# automatic
+# ? := main.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=3/13=23%
+#  recipe to execute (from 'Makefile', line 17):
+	g++ ${CCFLAGS} -c main.cpp -o main.o
+
+# files hash-table stats:
+# Load=11/1024=1%, Rehash=0, Collisions=0/33=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 17 / storage = 177 B / avg = 10 B
+# current buf: size = 8162 B / used = 177 B / count = 17 / avg = 10 B
+
+# strcache performance: lookups = 38 / hit rate = 55%
+# hash-table stats:
+# Load=17/8192=0%, Rehash=0, Collisions=1/38=3%
+# Finished Make data base on Mon May 31 19:48:32 2021
+
+ 

@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/mnt/hgfs/ZCQ_ARM_Linux_i.MX6ULL/ZCQ-VScode-Makefile/VScode_Makefile_OK_04'
+g++    -c -o main.o main.cpp
+g++    -c -o display.o display.cpp
+g++    -c -o echo.o echo.cpp
+g++  -Wall -std=c++17  main.o display.o echo.o  -o all 
+make: Leaving directory '/mnt/hgfs/ZCQ_ARM_Linux_i.MX6ULL/ZCQ-VScode-Makefile/VScode_Makefile_OK_04'
+ 

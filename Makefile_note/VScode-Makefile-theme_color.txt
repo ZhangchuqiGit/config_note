@@ -1,0 +1,212 @@
+
+/home/zcq/.config/Code/User/settings.json
+
+自定义颜色
+https://blog.csdn.net/yh8899abc/article/details/102806930
+https://www.cnblogs.com/garvenc/p/vscode_customize_color_theme.html
+
+
+在 fIle–Preference–settings : settings.json 文件中添加json代码：
+
+
+
+    "workbench.iconTheme": "vscode-icons", // 图标主题
+    "workbench.colorTheme": "Visual Studio Dark - C++", // 系统颜色主题
+    // "workbench.colorTheme": "Visual Studio Dark", // 系统颜色主题
+    /* 附加 自定义 系统颜色主题 */
+    "workbench.colorCustomizations": { /* VSCode 各个UI组件的颜色 */
+        "[Visual Studio Dark - C++]": {
+            /* 活动栏 */
+            "activityBar.activeBackground": "#005e40", // 活动项的活动栏背景颜色
+            "activityBar.activeBorder": "#ffffff", // 活动项的活动栏边框颜色
+            "activityBar.background": "#003825", // 活动栏背景色
+            "activityBar.foreground": "#ffffff", // 活动栏前景色(例如用于图标)
+            "activityBar.inactiveForeground": "#00ffdda4", // 活动栏项在非活动时的前景色
+            /* 编辑器 */
+            "editor.background": "#001a06", // 编辑器背景颜色
+            "editor.foreground": "#ebfff7", // 编辑器默认前景色
+            "editor.findMatchBackground": "#fbff00a6", // 当前搜索匹配项的颜色
+            "editor.findMatchHighlightBackground": "#ff00ae77", // 其他搜索匹配项的颜色
+            "editor.lineHighlightBackground": "#008f6b7a", // 光标所在行高亮内容的背景颜色
+            "editor.selectionBackground": "#ff00c8b6", // 编辑器所选内容的颜色
+            "editor.selectionHighlightBackground": "#ff00f2ab", // 具有与所选项相关内容的区域的颜色
+            "editor.selectionHighlightBorder": "#eeff00", // 与所选项内容相同的区域的边框颜色
+            "editorBracketMatch.background": "#cc00ffa6", // 匹配括号的背景色
+            "editorCursor.foreground": "#ff0000", // 编辑器光标颜色
+            "editorGutter.background": "#35001c79", // 编辑器导航线的背景色        
+            "editorHoverWidget.background": "#410022", // 光标悬停提示的背景颜色
+            "editorHoverWidget.border": "#fffb00", // 光标悬停时编辑器的边框颜色
+            "editorIndentGuide.activeBackground": "#ff6600b7", // 编辑器活动缩进参考线的颜色
+            "editorIndentGuide.background": "#88ff0079", // 编辑器缩进参考线的颜色        
+            "editorLineNumber.foreground": "#00ffffc0", // 编辑器行号的颜色
+            "editorLineNumber.activeForeground": "#ffffff", // 编辑器活动行号的颜色
+            /* 面板 */
+            "panel.background": "#1a1100", // 面板的背景色
+            "panel.border": "#a800008a", // 将面板与编辑器隔开的边框的颜色
+            "panelTitle.activeForeground": "#00ff0d", // 活动面板的标题颜色
+            "panelTitle.activeBorder": "#00ff0d",
+            "panelTitle.inactiveForeground": "#ff9beed7",
+            /* 滚动条滑块 */
+            "scrollbar.shadow": "#00ffbf81", // 表示视图被滚动的滚动条阴影
+            "scrollbarSlider.activeBackground": "#ff9292", // 滚动条滑块在被点击时的背景色
+            "scrollbarSlider.background": "#fffb0071", // 滚动条滑块背景色
+            "scrollbarSlider.hoverBackground": "#00ff806e", // 滚动条滑块在悬停时的背景色
+            /* 侧边栏 */
+            "sideBar.background": "#172500", // 侧边栏背景色
+            "sideBar.dropBackground": "#679cffb9", // 侧边栏中的部分在拖放时的反馈颜色
+            "sideBar.foreground": "#a2ffd0da", // 侧边栏前景色
+            "sideBarSectionHeader.background": "#2bff002c", // 侧边栏部分标题背景色
+            "sideBarSectionHeader.foreground": "#5fdfff", // 侧边栏部分标题前景色
+            "sideBarTitle.foreground": "#ff8ec3", // 侧边栏标题前景色
+            /* 状态栏 */
+            "statusBar.background": "#0051ff23", // 工作区或文件夹打开时状态栏的背景色
+            "statusBar.foreground": "#ffffffd3", // 工作区或文件夹打开时状态栏的前景色
+            "statusBarItem.activeBackground": "#0051ff", // 单击时的状态栏项背景色
+            "statusBarItem.hoverBackground": "#00ffbf81", // 悬停时的状态栏项背景色
+            /* 选项卡 */
+            "tab.activeBackground": "#00ffbf49", // 活动选项卡的背景色
+            "tab.activeForeground": "#fcff30", // 活动组中活动选项卡的前景色
+            "tab.border": "#8cf7ff", // 用于将选项卡彼此分隔开的边框
+            "tab.hoverBackground": "#00a2ff88", // 选项卡被悬停时的背景色
+            "tab.inactiveBackground": "#113b00", // 非活动选项卡的背景色
+            "tab.inactiveForeground": "#ffffff", // 活动组中非活动选项卡的前景色
+            "tab.unfocusedActiveBackground": "#3d5700", // 非焦点组中的活动选项卡背景色
+            "tab.unfocusedActiveForeground": "#ffffffbf",
+            // terminal 中的光标
+            "terminalCursor.foreground": "#ff0000",
+        },
+    },
+    /* 附加 自定义 系统颜色主题 */
+    "editor.tokenColorCustomizations": { /* VSCode 替代当前所选颜色主题中的编辑器语法颜色和字形 */
+        "[Visual Studio Dark - C++]": {
+            "comments": "#00ff22", // 注释
+            "strings": "#ffa600", // 字符串文本
+            "functions": "#c4f1ff", // 函数名
+            "keywords": "#ff5295", // 关键字
+            "variables": "#aaffe3", // 变量
+            "numbers": "#00ebeb", // 数字
+            "textMateRules": [
+                {
+                    "name": "Character",
+                    "scope": [
+                        "constant",
+                        "constant.character"
+                    ],
+                    "settings": {
+                        "foreground": "#e100ff"
+                    }
+                },
+                {
+                    "name": "Class",
+                    "scope": [
+                        "entity.name.type",
+                        "entity.other.inherited-class",
+                        "support.class"
+                    ],
+                    "settings": {
+                        "foreground": "#eeb6ff"
+                    }
+                },
+                {
+                    "name": "Comment",
+                    "scope": [
+                        "comment"
+                    ],
+                    "settings": {
+                        "foreground": "#9ecc62",
+                        "fontStyle": "",
+                    }
+                },
+                {
+                    "name": "[VSCODE-CUSTOM] PHP Punctuation Variable Definition",
+                    "scope": "punctuation.definition.variable.php",
+                    "settings": {
+                        "foreground": "#815400",
+                        "fontStyle": "",
+                    }
+                },
+                {
+                    "name": "HTML:Tag Names",
+                    "scope": "entity.name.tag",
+                    "settings": {
+                        "foreground": "#cf66ff",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "name": "Operator",
+                    "scope": "keyword.operator",
+                    "settings": {
+                        "foreground": "#64c6ff",
+                        "fontStyle": "",
+                    }
+                },
+                {
+                    "name": "Parameter",
+                    "scope": "variable.parameter",
+                    "settings": {
+                        "foreground": "#ffb7e9",
+                        "fontStyle": "underline"
+                    }
+                },
+                {
+                    "name": "Punctuation", // 标点
+                    "scope": "punctuation",
+                    "settings": {
+                        "foreground": "#ca89ff",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "name": "String",
+                    "scope": [
+                        "string"
+                    ],
+                    "settings": {
+                        "foreground": "#ffa55b",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "name": "Comments: Preprocessor",
+                    "scope": "comment.block.preprocessor",
+                    "settings": {
+                        "fontStyle": "",
+                        "foreground": "#fbff00"
+                    }
+                },
+                {
+                    "name": "Comments: Documentation",
+                    "scope": [
+                        "comment.documentation",
+                        "comment.block.documentation"
+                    ],
+                    "settings": {
+                        "foreground": "#ffffff"
+                    }
+                },
+                {
+                    "name": "Strings: Regular Expressions",
+                    "scope": "string.regexp",
+                    "settings": {
+                        "foreground": "#c35bff"
+                    }
+                },
+                {
+                    "name": "Extra: Diff Range",
+                    "scope": [
+                        "meta.diff.range",
+                        "meta.diff.index",
+                        "meta.separator"
+                    ],
+                    "settings": {
+                        "background": "#DDDDFF",
+                        "foreground": "#434343"
+                    }
+                },
+            ]
+        }
+    },
+
+
+

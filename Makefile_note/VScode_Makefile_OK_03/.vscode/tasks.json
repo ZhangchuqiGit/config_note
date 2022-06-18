@@ -1,0 +1,41 @@
+{
+    "tasks": [
+        {
+            "label": "make_debug", //task的名字,键盘 ctrl+shift+B 选择  
+            "type": "shell",
+            "command": "make CFLAG=-g", //会在命令行中调用此命令  
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "make_release", //task的名字,键盘 ctrl+shift+B 选择
+            "type": "shell",
+            "command": "make CFLAG=-O2", //会在命令行中调用此命令  
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "make_clean", //task的名字,键盘 ctrl+shift+B 选择
+            "type": "shell",
+            "command": "make clean", //会在命令行中调用此命令  
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$eslint-compact"
+            ]
+        }
+    ],
+    "version": "2.0.0"
+}

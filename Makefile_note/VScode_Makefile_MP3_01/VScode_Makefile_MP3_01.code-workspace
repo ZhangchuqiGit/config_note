@@ -1,0 +1,59 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "iostream": "cpp",
+            "echo.h": "c",
+            "header_cc.h": "c",
+            "cstddef": "cpp",
+            "cstdio": "cpp",
+            "cstdlib": "cpp",
+            "cstring": "cpp",
+            "array": "cpp",
+            "atomic": "cpp",
+            "bit": "cpp",
+            "*.tcc": "cpp",
+            "cctype": "cpp",
+            "clocale": "cpp",
+            "cmath": "cpp",
+            "compare": "cpp",
+            "concepts": "cpp",
+            "cstdint": "cpp",
+            "cwchar": "cpp",
+            "cwctype": "cpp",
+            "list": "cpp",
+            "map": "cpp",
+            "set": "cpp",
+            "unordered_map": "cpp",
+            "vector": "cpp",
+            "exception": "cpp",
+            "algorithm": "cpp",
+            "functional": "cpp",
+            "iterator": "cpp",
+            "memory": "cpp",
+            "memory_resource": "cpp",
+            "string": "cpp",
+            "tuple": "cpp",
+            "type_traits": "cpp",
+            "utility": "cpp",
+            "initializer_list": "cpp",
+            "iosfwd": "cpp",
+            "istream": "cpp",
+            "limits": "cpp",
+            "new": "cpp",
+            "ostream": "cpp",
+            "stdexcept": "cpp",
+            "streambuf": "cpp",
+            "string_view": "cpp",
+            "system_error": "cpp",
+            "typeinfo": "cpp",
+            "lcd.h": "c",
+            "media.h": "c"
+        },
+        "editor.suggest.filterGraceful": false
+    }
+}
